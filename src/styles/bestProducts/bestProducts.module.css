@@ -1,0 +1,10 @@
+.best-products{
+    background: var(--color-gray);
+    padding: 9rem 0;
+    width:100%;
+}
+.best-products h2 {
+    font-size: 2.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+}

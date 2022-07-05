@@ -1,0 +1,8 @@
+@import url("./hero/hero.module.css");
+@import url(./header/header.module.css);
+@import url("./footer/footer.module.css"); 
+@import url("./categories/categories.module.css");
+@import url("./globalStyle/globalStyle.module.css");
+@import url("./newProducts/newProducts.module.css");
+@import url("./bestProducts/bestProducts.module.css");
+@import url("./gridContainer/gridContainer.module.css");

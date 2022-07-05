@@ -1,0 +1,25 @@
+.categories{
+    background: var(--color-gray);
+    padding: var(--padding-section);
+}
+.categories .categories-list ul > a {
+    color: var(--color-light);
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+.categories .categories-list > ul li {
+    background: var(--color-dark-blue);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 1rem 0;
+    text-align: center;
+}
+/**Responsive*/
+@media (min-width:240px) and (max-width:880px){
+    .categories .categories-list > ul {
+        grid-template-columns: 1fr;
+    }
+}

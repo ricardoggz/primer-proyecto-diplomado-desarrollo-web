@@ -1,0 +1,35 @@
+header {
+    background: var(--color-dark);
+    color: var(--color-light);
+    padding: 1rem;
+    width: 100%;
+}
+header nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+header nav a {
+    color: var(--color-light);
+}
+header nav > ul {
+    display: flex;
+    gap: 1rem;
+}
+header nav > ul li {
+    list-style: none;
+}
+header div a {
+    background: var(--color-light);
+    border-radius: 10%;
+    color:var(--color-dark-blue);
+    padding:0.5rem;
+    text-decoration: none;
+}
+/**Responsive*/
+@media (min-width:240px) and (max-width:750px){
+    header nav{
+        flex-direction: column;
+        gap:2rem;
+    }
+}
